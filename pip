@@ -1,0 +1,7 @@
+
+Pillow==7.1.2
+PyAutoGUI==0.9.50
+PyQt5==5.15.0
+PyQt5-sip==12.8.0
+PyQtWebEngine==5.15.0
+tmdbsimple==2.3.1
