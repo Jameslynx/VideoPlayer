@@ -66,9 +66,9 @@ class MyThread(QThread):
             all_trailers = {"movies": movies.info_dict, "tv": tv.info_dict}
             with open(os.path.join(trailers_dir, 'trailers.json'), 'w') as f_obj:
                 json.dump(all_trailers, f_obj, sort_keys=True, indent=4)
-            downloader()
             with open(os.path.join(trailers_dir, 'trailers.json')) as f_obj:
                 data_dict = json.load(f_obj)
+            downloader(data_dict)
 
 
 class TrailerPlayer(QWidget):

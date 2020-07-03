@@ -43,7 +43,7 @@ def download(path, url):
     image.save(path)                                    # save image
 
 
-def downloader():
+def downloader(data_dict=data_dict):
     """Get url from data_dict and download image"""
     posters_dir = os.path.join(dirname, 'posters')
     try:
