@@ -41,7 +41,7 @@ trailers_dir = os.path.join(os.path.dirname(__file__), 'Trailers')  # path to Tr
 try:
     with open(os.path.join(trailers_dir, 'trailers.json')) as f_obj:
         data_dict = json.load(f_obj)                                # attempt to populate data
-except json.decoder.JSONDecodeError:
+except :
     pass
 
 
