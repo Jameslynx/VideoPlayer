@@ -14,5 +14,6 @@ if an error occurs head on to https://www.python.org/downloads/ and get yourself
 move into the cloned directory
 # $cd ./VideoPlayer
 # $pip install -r requirements.txt
+with your texteditor head over to [VideoPlayer/BlackPlayer/Trailers/tmdb_api.py] and hard code your tmdb API
 # $python main.py
 # ENJOY!!
