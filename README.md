@@ -1,4 +1,4 @@
-# VideoPlayer
+# Linux Mint VideoPlayer
 ## Run With Python3.*
 VideoPlayer with PyQt5; With trailers availble through tmdbsimple;
 themoviedatabase.com API.
