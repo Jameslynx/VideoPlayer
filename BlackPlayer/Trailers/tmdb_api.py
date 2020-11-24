@@ -10,7 +10,7 @@ import tmdbsimple as tmdb
 from collections import defaultdict
 
 info_dict = defaultdict(list)
-tmdb.API_KEY = "ca357bc3b665e3d9b21b8aaabff6539a"
+# tmdb.API_KEY = {YOUR TMDB API}
 YOURL = "https://www.youtube.com/watch_popup?v={}&vq=hd1080"
 
 
